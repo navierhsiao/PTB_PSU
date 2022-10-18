@@ -1,0 +1,20 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [       
+        {
+            "name": "CortexDebug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/PTB_PSU.elf",
+            "device": "STM32H743VI",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+}

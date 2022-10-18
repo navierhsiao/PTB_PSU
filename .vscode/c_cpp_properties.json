@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "BSP/Driver/inc",
+                "BSP/Hardware/inc",
+                "Libraries/CMSIS/DSP/Include",
+                "Libraries/CMSIS/Include",
+                "Libraries/FreeRTOS/Source/CMSIS_RTOS_V2",
+                "Libraries/FreeRTOS/Source/include",
+                "Libraries/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "Libraries/FatFs/src",
+                "Libraries/FatFs/Target",
+                "Libraries/STM32_USB_Device_Library/Class/CDC/Inc",
+                "Libraries/STM32_USB_Device_Library/Core/Inc",
+                "Libraries/STM32H7xx_HAL_Driver/Inc",
+                "Libraries/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "Users/inc",
+                "Users/app/inc"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32H743xx",
+                "__GNUC__",
+                "ARM_MATH_MATRIX_CHECK",
+                "ARM_MATH_ROUNDING",
+                "ARM_MATH_LOOPUNROLL",
+                "__FPU_PRESENT=1",
+                "ARM_MATH_CM7",
+                "USE_USB_FS"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "forcedInclude": [
+            ]
+        }
+    ],
+    "version": 4
+}
